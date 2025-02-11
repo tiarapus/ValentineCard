@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Card</title>
+
+  <link rel="stylesheet" href="Assets/index.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="Assets/index.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card" id="valentineCard">
+       
+      <div class="card-content overflow-visible text-pink-600 font-bold text-2xl">
+        <img class="w-24 h-24 absolute z-100 -top-12" src="Assets/teddy.png" alt="">
+        <p>
+            Open Me.. 💌
+        </p>
+      </div>
+
+      <div class="message-content p-6">
+        <p class="text-sm text-pink-500 mb-4 mt-4">
+          Thank you for being here around me, like the sunshine that warms my heart and the gentle breeze that calms my soul. With you near, even the simplest moments feel special. I am grateful for everything about You. Happy Valentine’s Day, my other half. ❤️
+        </p>
+        <button id="loveButton" class="floating px-4 py-2 bg-pink-500 text-white font-bold rounded-full shadow hover:bg-pink-600 transition">
+          I Love You
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio Element -->
+  <audio id="loveSong" src="Assets/song.mp3"></audio>
+
+
+</body>
+</html>
